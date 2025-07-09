@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses & Pricing | CLAT NLTI</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/index.css">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #f3f4f6;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: #1e293b;
+            color: #fff;
+            padding: 2rem 0 1rem 0;
+            text-align: center;
+        }
+        .courses-container {
+            max-width: 800px;
+            margin: 2rem auto;
+            background: #fff;
+            border-radius: 15px;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.07);
+            padding: 2rem;
+        }
+        .course-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .course-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.5rem 1rem;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        .course-item:last-child {
+            border-bottom: none;
+        }
+        .course-title {
+            font-size: 1.2rem;
+            color: #1e293b;
+            font-weight: 600;
+        }
+        .course-price {
+            font-size: 1.1rem;
+            color: #2563eb;
+            font-weight: 700;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 2rem;
+            color: #2563eb;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .back-link:hover {
+            color: #1e293b;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Our Courses & Pricing</h1>
+        <p>Choose the best fit for your law entrance preparation</p>
+    </div>
+    <div class="courses-container">
+        <ul class="course-list">
+            <li class="course-item">
+                <span class="course-title">CLAT 2026 Crash Course</span>
+                <span class="course-price">₹29,999</span>
+            </li>
+            <li class="course-item">
+                <span class="course-title">CLAT 2026 Foundation Course</span>
+                <span class="course-price">₹49,999</span>
+            </li>
+            <li class="course-item">
+                <span class="course-title">AILET 2026 Full Course</span>
+                <span class="course-price">₹44,999</span>
+            </li>
+            <li class="course-item">
+                <span class="course-title">One-on-One Mentorship (Add-on)</span>
+                <span class="course-price">₹9,999</span>
+            </li>
+        </ul>
+        <a class="back-link" href="index.html">&larr; Back to Home</a>
+    </div>
+</body>
+</html>
